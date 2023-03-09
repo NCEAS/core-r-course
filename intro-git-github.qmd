@@ -1,3 +1,5 @@
 ---
 title: "Intro to Git and GitHub"
 ---
+
+## Learning Objectives {-}

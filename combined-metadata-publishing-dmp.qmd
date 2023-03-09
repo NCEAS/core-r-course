@@ -1,3 +1,5 @@
 ---
 title: "Metadata Best Practices, Publishing Data, & Writing Data Management Plans"
 ---
+
+## Learning Objectives {-}
