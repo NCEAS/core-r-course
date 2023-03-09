@@ -39,3 +39,9 @@ vignettes/*.pdf
 .Renviron
 
 /.quarto/
+
+# book build
+_book/
+
+# data 
+data/
