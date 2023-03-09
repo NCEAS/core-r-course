@@ -1,0 +1,31 @@
+project:
+  type: book
+  
+book: 
+  title: " NCEAS Learning Hub's coreR Course"
+  # date: "April 3, 2023"
+  reader-mode: false
+  sidebar:
+    title: "Course Materials"
+    style: "floating"
+    search: true
+    tools:
+      - icon: house-door-fill
+        href: https://www.nceas.ucsb.edu/learning-hub
+      - icon: twitter
+        href: https://twitter.com/ucsb_nceas
+      - icon: github
+        href: https://github.com/NCEAS/core-r-course
+  
+  chapters:
+    - index.qmd
+
+# bibliography: references.bib
+      
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
