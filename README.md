@@ -1,2 +1,2 @@
-# core-r-course
+# coreR Course
 Materials for coreR April 2023 session
