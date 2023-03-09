@@ -1,0 +1,3 @@
+---
+title: "Collaborating using Git and GitHub & Merge Conflicts"
+---
