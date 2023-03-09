@@ -1,8 +1,16 @@
-# Preface
+# Preface {.unnumbered}
 
-## coreR Course
+*April 3 - April 7, 2023*
+
+## About the coreR Course
 
 A five-day immersion in R programming for environmental data science. Researchers will gain experience with essential data science tools and best practices to increase their capacity as collaborators, reproducible coders, and open scientists. This course is taught both in-person and virtually. 
+
+### Learning Goals:
+
+- Effectively manage data using tidy data practices and developing quality metadata
+- Write clear and reusable code for scientific workflows
+- Build visually appealing data visualizations and reproducible reports using ggplot, markdown, and GitHub pages.
 
 ## Schedule
 
@@ -22,4 +30,4 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 
 **Additional contributors:** Ben Bolker, Amber E. Budden, Julien Brun, Natasha Haycock-Chavez, S. Jeanette Clark, Julie Lowndes, Stephanie Hampton, Matthew B. Jones, Samanta Katz, Erin McLean, Bryce Mecum, Deanna Pennington, Karthik Ram, Jim Regetz, Tracy Teal, Leah Wasser
 
-This is a Quarto book. To learn more about Quarto books visit https://quarto.org/docs/books.
+This is a Quarto book. To learn more about Quarto books visit [https://quarto.org/docs/books](https://quarto.org/docs/books).
