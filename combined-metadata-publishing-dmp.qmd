@@ -1,5 +1,140 @@
 ---
-title: "Metadata Best Practices, Publishing Data, & Writing Data Management Plans"
+title: "Writing Data Management Plans, Metadata Best Practices & Publishing Data"
+title-block-banner: true
+bibliography: references.bib
 ---
 
-## Learning Objectives {-}
+## Learning Objectives {.unnumbered}
+
+-   Understand the major components of a data management plan
+-   Practice using metadata guidelines that are best for reproducibility
+-   Become familiar with environmental data repositories for accessing and publishing data
+
+## The Data Life Cycle
+
+The data life cycle is a tool for facilitating successful management and preservation of data throughout a research project. Multiple versions of the data life cycle exist and vary in practice across domains or communities. For example, a meta-analysis project may only focus on the Discover, Integrate, and Analyze phases of the cycle.
+
+::: column-margin
+[![Source: DataOne](images/data-life-cycle.png){fig-alt="Data Life Cycle graphic with each stage following the next to create a circle." fig-align="right"}](https://dataoneorg.github.io/Education/bestpractices/)
+:::
+
+DataOne's [Data Management Skillbuilding Hub](https://dataoneorg.github.io/Education/bestpractices/) offers several best practices on how to effectively work with your data throughout all stages of the data life cycle.
+
+## Writing Data Management Plans (DMPs)
+
+A DMP is a document that describes how you will use your data during a research project, as well as what you will do with your data long after the project ends. Often a DMP encompasses all phases of the data life cycle - from planning, to collecting, to analyzing and ultimately to preservation and storage of the data.
+
+These are important project aspects to deeply consider because a well-thought-out plan means you are more likely to:
+
+-   stay organized,
+-   work efficiently,
+-   truly share data,
+-   engage your team,
+-   meet funder requirements as DMPs are become more common in the submission process for proposals.
+
+A DMP is both a straightforward blueprint for how you manage your data, *and* provides guidelines for your and your team on policies, access, roles, and more. While it is important to plan, it is equally important to recognize that no plan is perfect as change is inevitable. To make your DMP as robust as possible, treat it as a "living document" that you periodically review with your team and adjust as the needs of the project change.
+
+### How to Plan
+
+-   **Plan early:** research shows that over time data loss
+-   **Plan in collaboration:** high engagement of your team and stakeholders is not only a benefit to your project, but it also makes your DMP more resilient. When you include diverse expertise and perspectives to the planning stages, you're more likely to overcome obstacles in the future.
+-   **Utilize existing resources:** don't reinvent the wheel! There are many great DMP resources out there. Consider the article *Ten Simple Rules for Creating a Good Data Management Plan* [@michener2015], which has succinct guidelines on what to include in a DMP. Or use an online tool like [DMPTool](https://dmptool.org/), which provides official DMP templates from funders like NSF, example answers, and allows for collaboration.
+-   **Make revising part of the process:** Don't let your DMP collect dust after your initially write it. Make revising the DMP part of your research project and use it as a guide to ensure you're keeping on track.
+
+### What to include in a DMP
+
++---------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| DMP Section                           | Guiding Questions / Things to Consider                                                                                                                                                            |
++=======================================+===================================================================================================================================================================================================+
+| Funder Requirements                   | -   Does the funder have a template or specific DMP guidelines?                                                                                                                                   |
+|                                       |                                                                                                                                                                                                   |
+|                                       | -   Do you thoroughly understand all the requirements? Or do you need to reach out for clarification?                                                                                             |
+|                                       |                                                                                                                                                                                                   |
+|                                       | -   Is there a page-limit to what you can submit in your proposal? Would it beneficial to have an appendix or a longer version of your DMP for internal use elsewhere (and not for submission)?   |
++---------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Study Design                          | -   What analytical methods do you plan to use?                                                                                                                                                   |
+|                                       |                                                                                                                                                                                                   |
+|                                       | -   What experiments, if any, are needed to answer your research question?                                                                                                                        |
+|                                       |                                                                                                                                                                                                   |
+|                                       | -   What are the end products you plan to produce?                                                                                                                                                |
+|                                       |                                                                                                                                                                                                   |
+|                                       | -   What ethical considerations do you have about your project?                                                                                                                                   |
++---------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Data Collection                       | -   What type of data do you plan to collect (text, audio files, images, models, spreadsheets)?                                                                                                   |
+|                                       |                                                                                                                                                                                                   |
+|                                       | -   Where do you plan to source your data? Is it observational, already existing, or does it need to be collected? Do you need to obtain a license to access the data? Do you need an IRB review? |
+|                                       |                                                                                                                                                                                                   |
+|                                       | -   How much data do you plan to collect or use?                                                                                                                                                  |
+|                                       |                                                                                                                                                                                                   |
+|                                       | -   What format is the data in? Is it open source or is it proprietary?                                                                                                                           |
++---------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Data Organization                     | -   How will you manage your data? Will you be using open source or proprietary software programs?                                                                                                |
+|                                       |                                                                                                                                                                                                   |
+|                                       | -   Do you need a database to manage your data? Are there existing databases you can utilize or do you need to build one?                                                                         |
+|                                       |                                                                                                                                                                                                   |
+|                                       | -   What software tools do you plan to use to manage and organize your data?                                                                                                                      |
++---------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Quality Assurance and Quality Control | -   How will you ensure that your data is of quality?                                                                                                                                             |
+|                                       |                                                                                                                                                                                                   |
+|                                       | -   How will you maintain data integrity throughout your analysis?                                                                                                                                |
+|                                       |                                                                                                                                                                                                   |
+|                                       | -   What tests will you run on your raw data and processed data?                                                                                                                                  |
+|                                       |                                                                                                                                                                                                   |
+|                                       | -   Will you be utilizing outside partners to implement testing or QA/QC measures?                                                                                                                |
++---------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Data Policies                         | -   What licenses do you plan to use for your data? Are there open source licenses that meet your funders requirements?                                                                           |
+|                                       |                                                                                                                                                                                                   |
+|                                       | -   What are the policies for sharing, retaining, and licensing the data? Whose responsibility is that?                                                                                           |
+|                                       |                                                                                                                                                                                                   |
+|                                       | -   Are there any legal or ethical restrictions on your data? Do you have sensitive data that cannot be shared? Is a metadata documentation appropriate?                                          |
++---------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Data documentation & Metadata         | -   What information is required for you and others to accurately interpret, reuse, and access your data?                                                                                         |
+|                                       |                                                                                                                                                                                                   |
+|                                       | -   Will you be using a metadata standard?                                                                                                                                                        |
+|                                       |                                                                                                                                                                                                   |
+|                                       | -   What information is needed for you to write comprehensive metadata?                                                                                                                           |
+|                                       |                                                                                                                                                                                                   |
+|                                       | -   Where and how will you maintain this documentation? Is it possible for you to have the documentation open source?                                                                             |
++---------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Data Sharing                          | -   How will the data be shared after the project ends? Is this an accessible location?                                                                                                           |
+|                                       |                                                                                                                                                                                                   |
+|                                       | -   When will the data and project be available? Immediately after the project ends or a time period after?                                                                                       |
+|                                       |                                                                                                                                                                                                   |
+|                                       | -   Will you be publishing the project and the data to a journal?                                                                                                                                 |
+|                                       |                                                                                                                                                                                                   |
+|                                       | -   What data products do you plan to share?                                                                                                                                                      |
++---------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Roles and Responsibilities            | -   Who is in charge of collecting the data? Managing it? Storing it? Archiving it? Running quality control? Overall project management? There are lots of roles to consider here.                |
+|                                       |                                                                                                                                                                                                   |
+|                                       | -   What kind of expertise is needed for these roles?                                                                                                                                             |
+|                                       |                                                                                                                                                                                                   |
+|                                       | -   What happens if a role needs to change? How do you plan to handle this kind of change?                                                                                                        |
++---------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Long-term Storage & Data Preservation | -   Where do you plan to archive your data?                                                                                                                                                       |
+|                                       |                                                                                                                                                                                                   |
+|                                       | -   How long will the data be accessible?                                                                                                                                                         |
+|                                       |                                                                                                                                                                                                   |
+|                                       | -   How will the data be accessed for future use?                                                                                                                                                 |
+|                                       |                                                                                                                                                                                                   |
+|                                       | -   How will you be storing the data during your project? Is this different than where you will store it after the project ends?                                                                  |
+|                                       |                                                                                                                                                                                                   |
+|                                       | -   Does your institution or funder have long-term storage options for you to use?                                                                                                                |
++---------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Budget                                | -   Do you need to purchase any proprietary software?                                                                                                                                             |
+|                                       |                                                                                                                                                                                                   |
+|                                       | -   Do you need to purchase any hardware?                                                                                                                                                         |
+|                                       |                                                                                                                                                                                                   |
+|                                       | -   Do you need to pay for any services?                                                                                                                                                          |
+|                                       |                                                                                                                                                                                                   |
+|                                       | -   Will you need to hire employees? Consultants?                                                                                                                                                 |
+|                                       |                                                                                                                                                                                                   |
+|                                       | -   Do you anticipate that you will need to pay for any professional development or training either for yourself or your team?                                                                    |
++---------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+: {tbl-colwidths="\[25,75\]"}
+
+## Metadata Best Practices
+
+## Publishing Data
+
+## Exercise: Outline a DMP and Publish on KnB
