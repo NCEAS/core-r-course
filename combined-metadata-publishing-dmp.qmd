@@ -131,9 +131,101 @@ A DMP is both a straightforward blueprint for how you manage your data, *and* pr
 |                                       | -   Do you anticipate that you will need to pay for any professional development or training either for yourself or your team?                                                                    |
 +---------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-: {tbl-colwidths="\[25,75\]"}
+: {tbl-colwidths="\[20,80\]"}
 
 ## Metadata Best Practices
+
+Metadata (data about data) is an important part of the data life cycle because it enables data reuse long after the original collection. Imagine that you're writing your metadata for a typical researcher (who might even be you!) 30+ years from now - what will they need to understand what's inside your data files?
+
+The goal is to have enough information for the researcher to **understand the data**, **interpret the data**, and then **reuse the data** in another study.
+
+### Overall Guidelines
+
+Another way to think about metadata is to answer the following questions with the documentation:
+
+-   What was measured?
+-   Who measured it?
+-   When was it measured?
+-   Where was it measured?
+-   How was it measured?
+-   How is the data structured?
+-   Why was the data collected?
+-   Who should get credit for this data (researcher AND funding agency)?
+-   How can this data be reused (licensing)?
+
+### Bibliographic Guidelines
+
+The details that will help your data be cited correctly are:
+
+-   Global identifier like a digital object identifier (DOI)
+-   Descriptive title that includes information about the topic, the geographic location, the dates, and if applicable, the scale of the data
+-   Descriptive abstract that serves as a brief overview off the specific contents and purpose of the data package
+-   Funding information like the award number and the sponsor
+-   People and organizations like the creator of the dataset (i.e. who should be cited), the person to contact about the dataset (if different than the creator), and the contributors to the dataset
+
+### Discovery Guidelines
+
+The details that will help your data be discovered correctly are:
+
+-   Geospatial coverage of the data, including the field and laboratory sampling locations, place names and precise coordinates
+-   Temporal coverage of the data, including when the measurements were made and what time period (ie the calendar time or the geologic time) the measurements apply to
+-   Taxonomic coverage of the data, including what species were measured and what taxonomy standards and procedures were followed
+-   Any other contextual information as needed
+
+### Interpretation Guidelines
+
+The details that will help your data be interpreted correctly are:
+
+-   Collection methods for both field and laboratory data the full experimental and project design as well as how the data in the dataset fits into the overall project
+-   Processing methods for both field and laboratory samples
+-   All sample quality control procedures
+-   Provenance information to support your analysis and modelling methods
+-   Information about the hardware and software used to process your data, including the make, model, and version
+-   Computing quality control procedures like testing or code review
+
+### Data Structure and Contents
+
+-   Everything needs a description: the data model, the data objects (like tables, images, matricies, spatial layers, etc), and the variables all need to be described so that there is no room for misinterpretation.
+-   Variable information includes the definition of a variable, a standardized unit of measurement, definitions of any coded values (i.e. 0 = not collected), and any missing values (i.e. 999 = NA).
+
+Not only is this information helpful to you and any other researcher in the future using your data, but it is also helpful to search engines. The semantics of your dataset are crucial to ensure your data is both discoverable by others and interoperable (that is, reusable).
+
+For example, if you were to search for the character string "carbon dioxide flux" in a data repository, not all relevant results will be shown due to varying vocabulary conventions (i.e., "CO2 flux" instead of "carbon dioxide flux") across disciplines --- only datasets containing the exact words "carbon dioxide flux" are returned. With correct semantic annotation of the variables, your dataset that includes information about carbon dioxide flux but that calls it CO2 flux WOULD be included in that search.
+
+### Rights and Attribution
+
+Correctly assigning a way for your datasets to be cited and reused is the last piece of a complete metadata document. This section sets the scientific rights and expectations for the future on your data, like:
+
+-   Citation format to be used when giving credit for the data
+-   Attribution expectations for the dataset
+-   Reuse rights, which describe who may use the data and for what purpose
+-   Redistribution rights, which describe who may copy and redistribute the metadata and the data
+-   Legal terms and conditions like how the data are licensed for reuse.
+
+### Metadata Standards
+
+So, how do you organize all this information? There are a number of metadata standards (think, templates) that you could use including:
+
+- [Ecological Metadata Language (EML)](https://eml.ecoinformatics.org/)
+- [Geospatial Metadata Standards (ISO 19115 and ISO 19139)](https://www.fgdc.gov/metadata/iso-standards)
+    - See [NOAA's ISO Workbook](http://www.ncei.noaa.gov/sites/default/files/2020-04/ISO%2019115-2%20Workbook_Part%20II%20Extentions%20for%20imagery%20and%20Gridded%20Data.pdf)
+- [Biological Data Profile (BDP)](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.fgdc.gov/standards/projects/FGDC-standards-projects/metadata/biometadata/biodatap.pdf)
+- [Dublin Core](https://www.dublincore.org/)
+- [Darwin Core](https://dwc.tdwg.org/)
+- [PREservation Metadata: Implementation Strategies (PREMIS)](https://www.loc.gov/standards/premis/)
+- [Metadata Encoding Transmission Standard (METS)](https://www.loc.gov/standards/mets/)
+
+*Note this is not an exhaustive list.*
+
+### Data Identifiers
+
+Many journals require a DOI - a digital object identifier - be assigned to the published data before the paper can be accepted for publication. The reason for that is so that the data can easily be found and easily linked to.
+
+Some data repositories assign a DOI for each dataset you publish on their repository. But, if you need to update the datasets, check the policy of the data repository. Some repositories assign a new DOI after you update the dataset. If this is the case, researchers should cite the exact version of the dataset that they used in their analysis, even if there is a newer version of the dataset available.
+
+### Data Citation
+
+Researchers should get in the habit of citing the data that they use (even if it's their own data!) in each publication that uses that data.
 
 ## Publishing Data
 
