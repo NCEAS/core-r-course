@@ -230,3 +230,16 @@ Researchers should get in the habit of citing the data that they use (even if it
 ## Publishing Data
 
 ## Exercise: Outline a DMP and Publish on KnB
+
+**Goal of the exercise:** Practice outlining a DMP plan, identify quality metadata, and publish data on the knb repository.
+
+::: {.callout-tip}
+## Setup
+
+1. Go to this google sheet and find your group number 
+2. Go to this google slides template to share your findings / Grab a large post-it paper
+:::
+
+1. Considering your group's research question and datasets outline a DMP for your project. 
+2. Investigate the metadata in the provided datasets. How would you improve the metadata based on the standards we talked about? Or how does the metadata meet the standards we talked about?
+3. Publish your project on the knb repository.
