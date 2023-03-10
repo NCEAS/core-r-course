@@ -1,5 +1,6 @@
 ---
 title: "Git and GitHub Setup"
+title-block-banner: true
 ---
 
 ## Learning Objectives {-}
