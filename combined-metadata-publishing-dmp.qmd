@@ -206,14 +206,14 @@ Correctly assigning a way for your datasets to be cited and reused is the last p
 
 So, how do you organize all this information? There are a number of metadata standards (think, templates) that you could use including:
 
-- [Ecological Metadata Language (EML)](https://eml.ecoinformatics.org/)
-- [Geospatial Metadata Standards (ISO 19115 and ISO 19139)](https://www.fgdc.gov/metadata/iso-standards)
-    - See [NOAA's ISO Workbook](http://www.ncei.noaa.gov/sites/default/files/2020-04/ISO%2019115-2%20Workbook_Part%20II%20Extentions%20for%20imagery%20and%20Gridded%20Data.pdf)
-- [Biological Data Profile (BDP)](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.fgdc.gov/standards/projects/FGDC-standards-projects/metadata/biometadata/biodatap.pdf)
-- [Dublin Core](https://www.dublincore.org/)
-- [Darwin Core](https://dwc.tdwg.org/)
-- [PREservation Metadata: Implementation Strategies (PREMIS)](https://www.loc.gov/standards/premis/)
-- [Metadata Encoding Transmission Standard (METS)](https://www.loc.gov/standards/mets/)
+-   [Ecological Metadata Language (EML)](https://eml.ecoinformatics.org/)
+-   [Geospatial Metadata Standards (ISO 19115 and ISO 19139)](https://www.fgdc.gov/metadata/iso-standards)
+    -   See [NOAA's ISO Workbook](http://www.ncei.noaa.gov/sites/default/files/2020-04/ISO%2019115-2%20Workbook_Part%20II%20Extentions%20for%20imagery%20and%20Gridded%20Data.pdf)
+-   [Biological Data Profile (BDP)](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.fgdc.gov/standards/projects/FGDC-standards-projects/metadata/biometadata/biodatap.pdf)
+-   [Dublin Core](https://www.dublincore.org/)
+-   [Darwin Core](https://dwc.tdwg.org/)
+-   [PREservation Metadata: Implementation Strategies (PREMIS)](https://www.loc.gov/standards/premis/)
+-   [Metadata Encoding Transmission Standard (METS)](https://www.loc.gov/standards/mets/)
 
 *Note this is not an exhaustive list.*
 
@@ -229,17 +229,72 @@ Researchers should get in the habit of citing the data that they use (even if it
 
 ## Publishing Data
 
-## Exercise: Outline a DMP and Publish on KnB
+### Data Sharing & Preservation
 
-**Goal of the exercise:** Practice outlining a DMP plan, identify quality metadata, and publish data on the knb repository.
+![](images/WhyManage-small.png)
 
-::: {.callout-tip}
-## Setup
+### Data Repositories: Built for Data (and code)
 
-1. Go to this google sheet and find your group number 
-2. Go to this google slides template to share your findings / Grab a large post-it paper
+- GitHub is not an archival location
+- Examples of dedicated data repositories: 
+    - KNB
+    - Arctic Data Center
+    - tDAR
+    - EDI
+    - Zenodo
+- Dedicated data repositories are:
+    - Rich in metadata
+    - Archival in their mission
+    - [Certified](https://www.coretrustseal.org/)
+- Data papers, e.g., Scientific Data
+- [re3data](https://www.re3data.org/) is a global registry of research data repositories
+- [Repository Finder](https://repositoryfinder.datacite.org/) is a pilot project and tool to help researchers find an appropriate repository for their work
+
+### Data Packages
+
+We define a data package as a scientifically useful collection of data and metadata that a researcher wants to preserve. Sometimes a data package represents all of the data from a particular experiment, while at other times it might be all of the data from a grant, or on a topic, or associated with a paper. Whatever the extent, we define a data package as having one or more data files, software files, and other scientific products such as graphs and images, all tied together with a descriptive metadata document.
+
+These data repositories all assign a unique identifier to every version of every data file, similarly to how it works with source code commits in GitHub. Those identifiers usually take one of two forms. A DOI identifier is often assigned to the metadata and becomes a publicly citable identifier for the package. Each of the other files gets a global identifier, often a UUID that is globally unique. In the graphic to the side, the package can be cited with the DOI `doi:10.5063/F1F18WN4`,and each of the individual files have their own identifiers as well.
+
+::: column-margin
+![](images/data-package.png)
 :::
 
-1. Considering your group's research question and datasets outline a DMP for your project. 
-2. Investigate the metadata in the provided datasets. How would you improve the metadata based on the standards we talked about? Or how does the metadata meet the standards we talked about?
-3. Publish your project on the knb repository.
+### DataOne Federation
+
+DataONE is a federation of dozens of data repositories that work together to make their systems interoperable and to provide a single unified search system that spans the repositories. DataONE aims to make it simpler for researchers to publish data to one of its member repositories, and then to discover and download that data for reuse in synthetic analyses.
+
+DataONE can be [searched on the web](https://search.dataone.org/), which effectively allows a single search to find data from the dozens of members of DataONE, rather than visiting each of the (currently 44!) repositories one at a time.
+
+![](images/DataONECNs.png)
+ 
+## Exercise: Outline a DMP and Publish a Data Package on the KNB Repository
+
+**Goal of the exercise:** Practice outlining a DMP plan, identify quality metadata, and publish data on the KNB repository.
+
+### Instructions
+
+1.  Considering your group's research question and datasets outline a DMP for your project.
+    a. **Use the google doc template from the Setup box below.**
+2.  Investigate the metadata in the provided data. 
+    a. Does the metadata meet the standards we talked about? How so? 
+    b. If not, how would you improve the metadata based on the standards we talked about?
+3.  Publish your project on NCEAS' [demo website](https://demo.nceas.ucsb.edu/) for the KNB repository.
+    a. **Make sure to logon to KNB using your ORCiD.**
+4. Elect someone to share back to the group the following:
+    a. What went well?
+    b. What was challenging?
+    c. What did you like about submitting a data package? What features are missing?
+
+::: callout-tip
+## Setup
+
+1.  Go to this google sheet and find your group number
+2.  Go to this google doc for DMP template
+:::
+    
+::: callout-important
+### Extra Challenge
+
+1. Search for additional data on these repositories: DataOne, KNB, EDI
+:::
