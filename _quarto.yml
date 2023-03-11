@@ -26,9 +26,9 @@ book:
   
   chapters:
     - index.qmd
-    - intro.qmd
     - rstudio-server-setup.qmd
     - git-setup.qmd
+    - intro.qmd
     - intro-r-programming.qmd
     - intro-rmd.qmd
     - fair-care-principles.qmd
