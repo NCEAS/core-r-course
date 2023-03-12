@@ -67,9 +67,8 @@ Notice the default panes:
 -   Environment/History (tabbed in upper right)
 -   Files/Plots/Packages/Help (tabbed in lower right)
 
-::: callout-tip
+::: callout-note
 ## Quick Tip
 
 You can change the default location of the panes, among many other things, see [Customizing RStudio](https://support.rstudio.com/hc/en-us/articles/200549016-Customizing-RStudio).
 :::
-
