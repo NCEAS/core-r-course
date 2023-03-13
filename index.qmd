@@ -18,7 +18,7 @@ A five-day immersion in R programming for environmental data science. Researcher
 
 ## Schedule
 
-\[add picture of schedule here\]
+[add picture of schedule here]
 
 ## Code of Conduct
 
@@ -30,7 +30,7 @@ These written materials are the result of a continuous effort at NCEAS to help r
 
 This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 
-**Citation:** Halina Do-Linh, Camila Vargas Poulsen, Samantha Csik, Daphne Virlar-Knight, . 2023. coreR Course. NCEAS Learning Hub.
+**Citation:** Halina Do-Linh, Camila Vargas Poulsen, Samantha Csik, Daphne Virlar-Knight. 2023. coreR Course. NCEAS Learning Hub.
 
 **Additional contributors:** Ben Bolker, Amber E. Budden, Julien Brun, Natasha Haycock-Chavez, S. Jeanette Clark, Julie Lowndes, Stephanie Hampton, Matthew B. Jones, Samanta Katz, Erin McLean, Bryce Mecum, Deanna Pennington, Karthik Ram, Jim Regetz, Tracy Teal, Leah Wasser
 
