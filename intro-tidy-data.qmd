@@ -117,7 +117,7 @@ Here is what our tidy data look like:
 
 ![](images/tables-norm.png){width="80%" fig-align="center"}
 
-Note that this normalized version of the data meets the three guidelines set by [@borer2009a]:
+Note that this normalized version of the data meets the three guidelines set by [@borer2009]:
 
 -   Design tables to add rows, not columns
 -   Each column should contain only one type of information
@@ -163,10 +163,8 @@ Sometimes people represent these as Venn diagrams showing which parts of the lef
 
 In the figure above, the blue regions show the set of rows that are included in the result. For the INNER JOIN, the rows returned are all rows in A that have a matching row in B.
 
-## Exercise: Practice Joins
-
 ## Additonal Tidy Data Resources
 
-- [White et al. 2013. Nine simple ways to make it easier to (re)use your data. Ideas in Ecology and Evolution 6.](https://doi.org/10.4033/iee.2013.6b.6.f)
-- [Software Carpentry SQL Tutorial](https://swcarpentry.github.io/sql-novice-survey/)
-- [Tidy Data](http://vita.had.co.nz/papers/tidy-data.pdf)
+-   [White et al. 2013. Nine simple ways to make it easier to (re)use your data. Ideas in Ecology and Evolution 6.](https://doi.org/10.4033/iee.2013.6b.6.f)
+-   [Software Carpentry SQL Tutorial](https://swcarpentry.github.io/sql-novice-survey/)
+-   [Tidy Data](http://vita.had.co.nz/papers/tidy-data.pdf)
