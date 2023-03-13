@@ -35,7 +35,7 @@ book:
     - intro-git-github.qmd
     - git-collab-merge-conflicts.qmd
     - intro-tidy-data.qmd
-    - r-practice-tidy-data.qmd
+    - r-practice-tidy-data-joins.qmd
     - data-viz-publish-github-pages.qmd
     - clean-wrangle-data.qmd
     - r-practice-clean-wrangle.qmd
